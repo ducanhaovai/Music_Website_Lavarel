@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+  html,
+  body  {
+      background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+      
+    background-size:cover;
+          -webkit-animation: slidein 100s;
+          animation: slidein 100s;
+  
+          -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  
+          -webkit-animation-direction: alternate;
+          animation-direction: alternate;              
+  }
+  
+  @-webkit-keyframes slidein {
+  from {background-position: top; background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2750px;}
+  }
+  
+  @keyframes slidein {
+  from {background-position: top;background-size:3000px; }
+  to {background-position: -100px 0px;background-size:2750px;}
+  
+  }
+  background-image{
+    
+    background: rgba(75, 75, 250, 0.3);
+  }
+  
+  
+  .breadcrumb  
+  {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+  }
+  .container h1{
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 8px #000;
+  }
+  
+  img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container form{
+    position: relative;
+  width:300px;
+  height:350px;
+  padding-top: 3rem! important;
+  margin-left: 60px;
+  margin-top:40px;
+  background: #2b303b;
+  border: none;
+  font-size: 17pt;
+  float: left;
+  color: #fff;
+  padding-left: 45px;
+
+  -webkit-border-radius: px;
+  -moz-border-radius: 5px;
+  border-radius: 30px;
+  opacity: 0.5;  filter: alpha(opacity=50);
+}
+.form:hover {  opacity: 1.0;  filter: alpha(opacity=100);}
+input{
+    color:#000;
+    border-radius: 11px;
+    margin-right: 20px;
+    border-style:double;
+    display:block;
+    margin-inline-end: 10px;
+    margin: 0 0 -10px 0;
+    font-size: 18px;
+}
+.container track_pic{
+
+  margin-right: 60px;
+  margin: 0;
+  padding: 0;
+
+}
